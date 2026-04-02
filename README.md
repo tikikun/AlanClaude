@@ -1,5 +1,7 @@
 # AlanClaude
 
+![AlanClaude](alanclaude.png)
+
 > A personal fork of OpenClaude by **[Alan Dao](https://alandao.net)** ([@alandao_ai](https://x.com/alandao_ai)) — AI Researcher at [Menlo Research](https://menlo.ai).
 
 Use Claude Code with **any LLM** — not just Claude.
