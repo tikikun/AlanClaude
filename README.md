@@ -1,10 +1,39 @@
-# OpenClaude
+# AlanClaude
+
+> A personal fork of OpenClaude by **[Alan Dao](https://alandao.net)** ([@alandao_ai](https://x.com/alandao_ai)) — AI Researcher at [Menlo Research](https://menlo.ai).
 
 Use Claude Code with **any LLM** — not just Claude.
 
-OpenClaude is a fork of the [Claude Code source leak](https://gitlawb.com/node/repos/z6MkgKkb/instructkr-claude-code) (exposed via npm source maps on March 31, 2026). We added an OpenAI-compatible provider shim so you can plug in GPT-4o, DeepSeek, Gemini, Llama, Mistral, or any model that speaks the OpenAI chat completions API. It now also supports the ChatGPT Codex backend for `codexplan` and `codexspark`.
+AlanClaude (originally OpenClaude) is a fork of the [Claude Code source leak](https://gitlawb.com/node/repos/z6MkgKkb/instructkr-claude-code) (exposed via npm source maps on March 31, 2026). It adds an OpenAI-compatible provider shim so you can plug in GPT-4o, DeepSeek, Gemini, Llama, Mistral, or any model that speaks the OpenAI chat completions API. It also supports the ChatGPT Codex backend for `codexplan` and `codexspark`.
 
 All of Claude Code's tools work — bash, file read/write/edit, grep, glob, agents, tasks, MCP — just powered by whatever model you choose.
+
+---
+
+## About Alan Dao
+
+**Alan Dao** (GitHub: [tikikun](https://github.com/tikikun)) is an AI Researcher at [Menlo Research](https://menlo.ai). His work centers on open-source, locally-runnable AI tools and applied research at the intersection of language models and robotics.
+
+### Menlo Research
+
+[Menlo Research](https://menlo.ai) is an Applied R&D lab building the AI stack for humanoid robots. Notable projects include:
+
+- **[Jan](https://jan.ai)** — open-source AI chatbot client with 1.5M+ downloads, supporting local and cloud models
+- **Asimov** — open-source humanoid robot with an open supply chain ecosystem
+- **Menlo OS** — integrated platform for training and deploying agentic behavior in humanoid robots
+- **cortex.cpp** — lightweight C++ local AI inference engine
+
+### Selected Research
+
+| Project | Description |
+|---------|-------------|
+| **Jan-nano** | 4B agentic model for tool use and multi-step search reasoning; 100k+ Hugging Face downloads ([arXiv:2506.22760](https://arxiv.org/abs/2506.22760)) |
+| **Ichigo** | Mixed-modal realtime voice assistant with sub-second latency; open-source alternative to ChatGPT Voice Mode ([arXiv:2410.15316](https://arxiv.org/abs/2410.15316)) |
+| **AlphaMaze** | SFT + GRPO framework giving LLMs visual maze-navigation reasoning ([arXiv:2502.14669](https://arxiv.org/abs/2502.14669)) |
+| **AlphaSpace** | Hierarchical tokenization for precise 3D spatial reasoning in robotic manipulation ([arXiv:2503.18769](https://arxiv.org/abs/2503.18769)) |
+| **ReZero** | RL framework rewarding LLMs for retrying failed search queries ([arXiv:2504.11001](https://arxiv.org/abs/2504.11001)) |
+
+**Links:** [alandao.net](https://alandao.net) · [GitHub](https://github.com/tikikun) · [Twitter/X](https://x.com/alandao_ai) · [Google Scholar](https://scholar.google.com/citations?user=eGWws2UAAAAJ)
 
 ---
 
@@ -366,7 +395,7 @@ src/utils/auth.ts                — Recognizes OpenAI as valid 3P provider
 
 ## Origin
 
-This is a fork of [instructkr/claude-code](https://gitlawb.com/node/repos/z6MkgKkb/instructkr-claude-code), which mirrored the Claude Code source snapshot that became publicly accessible through an npm source map exposure on March 31, 2026.
+This is a personal fork by Alan Dao of [OpenClaude](https://github.com/Gitlawb/openclaude), which itself forked [instructkr/claude-code](https://gitlawb.com/node/repos/z6MkgKkb/instructkr-claude-code) — a mirror of the Claude Code source snapshot that became publicly accessible through an npm source map exposure on March 31, 2026.
 
 The original Claude Code source is the property of Anthropic. This repository is not affiliated with or endorsed by Anthropic.
 
